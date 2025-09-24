@@ -8,23 +8,6 @@ This guide shows a safe, official, single-command install plus optional tweaks f
 
 ---
 
-## 🚀 Quick Install (macOS)
-
-**Launch:** `open -a "Sublime Text"` or from Launchpad.  
-**CLI (optional):** In Sublime Text, go to **Tools → Install ‘subl’ Command**.  
-If you prefer a manual link:
-    sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
-    # or for Apple Silicon Homebrew prefix:
-    sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /opt/homebrew/bin/subl
-
-**Update:**  
-    brew upgrade --cask sublime-text
-
-**Uninstall:**  
-    brew uninstall --cask sublime-text
-
----
-
 ## 🎯 What You Get
 - **One-command install** — quickest way to get Sublime Text on macOS via Homebrew.  
 - **Command-line launcher (`subl`)** — open files/folders from Terminal instantly.  
